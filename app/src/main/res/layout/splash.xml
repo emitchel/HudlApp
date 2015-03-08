@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:background="@color/hudl_blue"
+    android:layout_height="fill_parent"
+    android:layout_weight="1">
+
+    <ImageView android:id="@+id/splashscreen"
+        android:layout_width="match_parent"
+        android:layout_height="281dp"
+        android:src="@drawable/hudl"
+        android:scaleType="fitCenter"
+        android:padding="15sp"
+        android:layout_weight=".7"
+        android:layout_gravity="center_vertical"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:padding="15sp"
+        android:textColor="@color/white"
+
+        android:text="@string/dev_name"/>
+
+</LinearLayout>

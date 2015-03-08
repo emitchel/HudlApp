@@ -1,0 +1,34 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/hudl_orange" />
+            <corners android:radius="2dp"/>
+        </shape>
+    </item>
+    <item android:state_focused="true">
+        <shape>
+            <solid android:color="@color/hudl_orange" />
+            <corners android:radius="2dp"/>
+        </shape>
+    </item>
+    <item android:state_active="true">
+        <shape>
+            <solid android:color="@color/hudl_orange" />
+            <corners android:radius="2dp"/>
+        </shape>
+    </item>
+    <item android:state_selected="true">
+        <shape>
+            <solid android:color="@color/hudl_orange" />
+            <corners android:radius="2dp"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="@color/hudl_blue" />
+            <corners android:radius="2dp"/>
+        </shape>
+    </item>
+
+</selector>
